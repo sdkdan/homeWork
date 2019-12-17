@@ -16,7 +16,7 @@ public class Practice6 {
                     break;
                 }
                 System.out.println("The PIN is not correct");
-                reader.close();
+
             }catch (IOException e){
                 e.printStackTrace();
             }

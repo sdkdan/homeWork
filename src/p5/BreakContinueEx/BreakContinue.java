@@ -1,24 +1,24 @@
 
-package BreakContinueEx;
+package p5.BreakContinueEx;
 
 
 public class BreakContinue {
-    
-    public static void main( String [] args ) {
 
-               for( int i = 0 ; i < 10 ; i++ ) {
+    public static void main(String[] args) {
 
-                     if( i % 2 == 0) { 
-                         
-                     }
+        for (int i = 0; i < 10; i++) {
 
-                     System.out.println("The number is " + i );
+            if (i % 2 == 0) {
 
-                     if( i == 7 ) {
-                          
-                      }
+            }
 
-               }
+            System.out.println("The number is " + i);
+
+            if (i == 7) {
+
+            }
+
         }
+    }
 
 }

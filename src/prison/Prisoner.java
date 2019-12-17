@@ -52,9 +52,6 @@ public class Prisoner {
     }
 
     public Prisoner(){
-        this.name = null;
-        this.height = 0.0;
-        this.sentence = 0;
         prisonerCounter++;
     }
     public void think(){

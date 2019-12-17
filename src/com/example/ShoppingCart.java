@@ -14,8 +14,13 @@ public class ShoppingCart {
         String custName = "Steve Smith";
         String firstName;
         int spaceIdx = custName.indexOf(" ");
+        try{
+        System.out.println(firstName = custName.substring(0, spaceIdx));}
+        catch (Exception e){
+            e.printStackTrace();
+        }
 
-        System.out.println(firstName = custName.substring(0, spaceIdx));
+
         
         // Get the index of the space character (" ") in custName. 
 

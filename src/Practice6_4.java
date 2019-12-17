@@ -18,12 +18,12 @@ public class Practice6_4 {
             swap(names, left, minInd);
         }
 
-       // System.out.println(names.toString());
+        System.out.println(names.toString());
 
-//        for (String a: names
-//             ) {
-//            System.out.println(names[a]);
-//        }
+        for (String a: names
+             ) {
+            System.out.println(a);
+        }
 
     }
     public static void swap (String[] a, int b,int c){

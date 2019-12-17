@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package BreakContinueEx;
+package p5.BreakContinueEx;
 
 
 public class CountChar {
@@ -16,15 +16,14 @@ public class CountChar {
         int max = str.length();
         int count = 0;
 
-        
 
-//            if (str.charAt(i) != 'w')
-//                continue;
-
+        for (int i = 0; i < max; i++) {
+            if (str.charAt(i) != 'w') continue;
             count++;
-        
+        }
 
-        System.out.println("Counting w : " + count );
+
+        System.out.println("Counting w : " + count);
     }
 }
     

@@ -1,5 +1,5 @@
 
-package  ForLoopsEx;
+package  p5.ForLoopsEx;
 public class InfiniteLoop {
     public static void main(String[] args) {
    

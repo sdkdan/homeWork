@@ -20,6 +20,7 @@ public class P4_1 {
             total0 = calc.findTotal(persons[i]) + total0;
 //            calc.findTotal1(i, null);
         }
+        System.out.println(total0 + "ff");
         //System.out.println( calc.findTotal1(10, null));
 
         Double[] persons1 = {10.0, 12.0, 9.0, 8.0, 7.0, 11.0};

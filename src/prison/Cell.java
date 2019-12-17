@@ -22,6 +22,8 @@ public class Cell {
     public void open(int c){
         if (c!=code){
             System.out.println("Код неверен");
+            if(isOpened) System.out.println("дверь открыта");
+            else System.out.println("дверь закрыта");
         }
         else if (c == code){
             if(isOpened){
@@ -33,6 +35,12 @@ public class Cell {
                 System.out.println("Дверь открыта");
             }
         }
+
+    }
+
+    public void opened(Boolean b){
+        if(b) System.out.println("дверь теперь закрыта");
+        else System.out.println("дверь теперь открыта");
 
     }
 }
