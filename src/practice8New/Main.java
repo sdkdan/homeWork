@@ -12,6 +12,7 @@ public class Main {
         Team team3 = new Team("rostov");
         Team team4 = new Team("cska");
         Team[] allTeams = {team1, team2, team3, team4};
+        Game game = new Game();
 
         Scheduler sheduler = new Scheduler(allTeams);
 
@@ -29,6 +30,7 @@ public class Main {
         System.out.println("Season is over");
         System.out.println("Results");
         sheduler.printStatistic();
+
 
     }
 }

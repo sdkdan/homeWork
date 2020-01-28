@@ -4,7 +4,7 @@ public class Prisoner {
     private String name;
     private double height;
     private static int prisonerCounter = 0;
-    private static int bookingCounter = prisonerCounter;
+    private int bookingCounter = prisonerCounter;
 
 
     public String getName() {
@@ -35,7 +35,7 @@ public class Prisoner {
         return prisonerCounter;
     }
 
-    public static int getBookingCounter() {
+    public int getBookingCounter() {
         return bookingCounter;
     }
 

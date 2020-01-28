@@ -33,7 +33,7 @@ public class Terminal {
     }
     public void buyCredits(int money,Card card){
         card.setCreditsBalance(card.getCreditsBalance() + money*2);
-        System.out.println("Вы внесли " + money*2 + " кредитов Ваш щет состовляет " + card.getCreditsBalance());
+        System.out.println("Вы внесли " + money*2 + " кредитов Ваш счет состовляет " + card.getCreditsBalance());
     }
 
     public void cardTransaction(Card card1, Card card2, int credits) {
@@ -42,6 +42,7 @@ public class Terminal {
             card2.setCreditsBalance(card2.getCreditsBalance() - credits);
         } else {
             System.out.println("Недостаточно денег на карте" + card2.getCardNumber());
+
         }
     }
 }

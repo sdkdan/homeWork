@@ -7,6 +7,10 @@ public class Card {
 
     private int cardNumber;
 
+    public Card(){
+
+    }
+
     public Card(int creditsBalance, int balanceTickets, int carNumber) {
         this.creditsBalance = creditsBalance;
         this.balanceTickets = balanceTickets;

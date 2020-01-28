@@ -49,11 +49,13 @@ public class Scheduler {
         }
         return false;
     }
-    public void printStatistic(){
-        for(Team team: TeamArray){
+
+    public void printStatistic() {
+        for (Team team : TeamArray) {
             team.statistic();
         }
     }
+
     public Team[] getTeamArray() {
         return TeamArray;
     }

@@ -12,6 +12,9 @@ public class Game {
     private int temperature;
     private int gameNumber;
 
+    public Game(){
+
+    }
 
     public Game(Team homeTeam, Team awayTeam, int temperature) {
         this.homeTeam = homeTeam;
